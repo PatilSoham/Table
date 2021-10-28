@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table</title>
+    <style>
+         table,th,td,tr {
+                border: 3px solid black;
+                color:black;
+                background-color: tan;
+                border-collapse:collapse;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:10%;
+                margin-bottom: 50%;
+            }
+            .p1{padding: 15px;}
+            .p2{padding: 10px;}
+            .p3{padding: 10px; color: darkred; background-color: darkkhaki;}
+    </style>
+</head>
+<body style="background-color:darkslategray;">
+    <table>
+       <tr>
+           <th class="p1" colspan="6" style="background-color:rgb(183, 236, 183);">Time Table</th>
+       </tr>
+       <tr >
+        <th class="p3">Time</th>
+        <th class="p3">Monday</th>
+        <th class="p3">Tuesday</th>
+        <th class="p3">Wensday</th>
+        <th class="p3">Thersday</th>
+        <th class="p3">Friday</th>
+    </tr>
+    <tr>
+        <th class="p2">9.20am-10.20am</th>
+        <td class="p2">Science</td>
+        <td class="p2">Mathamatics</td>
+        <td class="p2">Science</td>
+        <td class="p2">Mathamatics</td>
+        <td class="p2">Arts</td>
+    </tr>
+    <tr>
+        <th class="p2">10.20am-11.20am</th>
+        <td class="p2">Social</td>
+        <td class="p2">History</td>
+        <td class="p2">English</td>
+        <td class="p2">Social</td>
+        <td class="p2">Sports</td>
+    </tr>
+    <tr>
+        <th class="p2">11.20am-12pm</th>
+        <th class="p1" colspan="5" text align="center" style="background-color: darkkhaki;" >Lunch</th>
+    </tr>
+    <tr>
+        <th class="p2">12pm-1pm</th>
+        <td class="p2">Science</td>
+        <td class="p2">Mathamatics</td>
+        <td class="p2">Science</td>
+        <td class="p2">Mathamatics</td>
+        <td class="p2" rowspan="2">Project</td>
+    </tr>
+    <tr>
+        <th class="p2">1pm-2pm</th>
+        <td class="p2">Social</td>
+        <td class="p2">History</td>
+        <td class="p2">English</td>
+        <td class="p2">Social</td>
+        
+    </tr>
+    </table>
+</body>
+</html>
